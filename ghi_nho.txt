@@ -1,0 +1,10 @@
+** middleware là 1 function gồm 3 tham số:
+var check = (req,res,next) => {
+
+}
+
+** để sử dụng ta dùng Router().use:
+
+app.use('/api',check1,check2,...,router)
+
+** req, res nằm chung cùng 1 đường dẫn
